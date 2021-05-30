@@ -1,0 +1,1 @@
+create database fixbus_db_hibernate;
