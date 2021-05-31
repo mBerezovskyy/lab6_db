@@ -24,3 +24,5 @@ hs_err_pid*
 
 .idea
 target
+docker-compose.yml.bak
+Dockerfile.bak
