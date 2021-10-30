@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${JDBC_DATABASE_URL:jdbc:mysql://localhost:3306/fixbus_db_hibernate?useUnicode=true&serverTimezone=UTC}
-    username: ${JDBC_DATABASE_USERNAME:root}
-    password: ${JDBC_DATABASE_PASSWORD:1527956}
+    url: ${JDBC_DATABASE_URL:jdbc:mysql://iot-clouds-lab1.mysql.database.azure.com:3306/fixbus_db?useSSL=true&requireSSL=false&useUnicode=true&serverTimezone=UTC}
+    username: ${JDBC_DATABASE_USERNAME:maxym@iot-clouds-lab1}
+    password: ${JDBC_DATABASE_PASSWORD:1234567Passwordforlab1}
   jpa:
     hibernate:
       ddl-auto: update
@@ -11,3 +11,6 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
   server:
     port:8080
+
+
+
