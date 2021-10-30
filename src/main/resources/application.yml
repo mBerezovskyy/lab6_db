@@ -1,7 +1,7 @@
 spring:
   datasource:
-    url: ${JDBC_DATABASE_URL:jdbc:mysql://iot-clouds-lab1.mysql.database.azure.com:3306/fixbus_db?useSSL=true&requireSSL=false&useUnicode=true&serverTimezone=UTC}
-    username: ${JDBC_DATABASE_USERNAME:maxym@iot-clouds-lab1}
+    url: ${JDBC_DATABASE_URL:jdbc:mysql://iot-clouds-lab-1.mysql.database.azure.com:3306/fixbus_db?useSSL=true&requireSSL=false&useUnicode=true&serverTimezone=UTC}
+    username: ${JDBC_DATABASE_USERNAME:maxym@iot-clouds-lab-1}
     password: ${JDBC_DATABASE_PASSWORD:1234567Passwordforlab1}
   jpa:
     hibernate:
