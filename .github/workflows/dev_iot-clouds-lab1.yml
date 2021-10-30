@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'iot-clouds-lab1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC499D79C6A64EDA98537314ADD535CE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D158773EFEA54AC9B4D5EB89F29C2868 }}
           package: '*.jar'
